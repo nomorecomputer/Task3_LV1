@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+@import "reset.css";
+@import "def_var.css";
+@import "all.css";
+@import "component.css";
+
+.header {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 151px 0;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 87px 0;
+    background-image: url(/image/hero-sm.png);
+  }
+}
+
+.eng-title {
+  font-size: 28px;
+}
+
+.quote {
+  border-radius: 12px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .quote {
+    text-align: left;
+  }
+}
+
+.section-border {
+  border-bottom: 1px solid var(--neutral-300);
+}
+
+.intro img {
+  max-width: 100%;
+}
+
+.milestone {
+  list-style-type: disc;
+}
+.milestone .item-seperator {
+  border-left: 1px solid var(--neutral-900);
+}
+
+.item-icon {
+  border-left: 3px solid var(--neutral-300);
+}
+
+.bi {
+  padding-right: 8px;
+  vertical-align: bottom;
+}
